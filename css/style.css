@@ -1084,3 +1084,44 @@ ANIMATIONS
     }
 
 }
+/*=========================================
+NAVBAR ON SCROLL
+=========================================*/
+
+.navbar-scrolled{
+
+background:rgba(6,14,28,.92);
+
+backdrop-filter:blur(25px);
+
+box-shadow:
+
+0 15px 40px rgba(0,0,0,.45);
+
+}
+
+/*=========================================
+ACTIVE MENU
+=========================================*/
+
+.nav-links a.active{
+
+color:var(--secondary);
+
+}
+
+.nav-links a.active::after{
+
+width:100%;
+
+}
+
+/*=========================================
+BODY MENU OPEN
+=========================================*/
+
+body.menu-open{
+
+overflow:hidden;
+
+}
